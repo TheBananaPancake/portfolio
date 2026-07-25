@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2026 TheBananaPancake <did:plc:3ywraszv5eqhnlvzumwju5fa>
+SPDX-License-Identifier: MIT
+-->
+
 <script lang="ts">
 	let activePage = $state('HOME');
 </script>
