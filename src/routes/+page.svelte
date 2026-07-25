@@ -121,7 +121,7 @@ SPDX-License-Identifier: MIT
         font-size: 16px;
 	}
 	button:disabled {
-	    background-color: #1f2937;
+	    background-color: #1b273e;
         color: white;
         border-width: 4px;
         border-color: #147878;
