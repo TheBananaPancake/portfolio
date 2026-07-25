@@ -15,7 +15,7 @@ by running:
 ```sh
 npm run dev
 ```
-and re-compile the Svelte code,
+and compile the Svelte code:
 ```sh
 npm run build
 ```
