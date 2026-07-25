@@ -23,7 +23,7 @@ npm run build
 If you find an error, please either make an issue or a pull request. Please
 make commits using:
 ```sh
-git commit -s"
+git commit -s
 ```
 Please use `-s` to add a signed-off-by line to show that you own the rights
 to the code in your commit. The command appends a line onto the end of the
