@@ -72,7 +72,7 @@ SPDX-License-Identifier: MIT
 
 <style>
 	main {
-		background-color: #11111b;
+		background-color: #111827;
 		color: white;
 		font-family:
 			'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
@@ -85,7 +85,7 @@ SPDX-License-Identifier: MIT
 	}
 
 	:global(body) {
-	    background-color: #1e1e2e;
+	    background-color: #1b273e;
 	}
 
 	a {
@@ -104,7 +104,7 @@ SPDX-License-Identifier: MIT
 	a.hollow-button {
 	    color: white;
 		border-width: 4px;
-		border-color: #1e1e2e;
+		border-color: #1b273e;
 		padding: 6px;
 		border-style: solid;
 		border-radius: 8px;
@@ -121,7 +121,7 @@ SPDX-License-Identifier: MIT
         font-size: 16px;
 	}
 	button:disabled {
-	    background-color: #11111b;
+	    background-color: #1f2937;
         color: white;
         border-width: 4px;
         border-color: #147878;
@@ -182,7 +182,7 @@ SPDX-License-Identifier: MIT
 		gap: 16px;
 	}
 	.panel {
-		background-color: #1e1e2e;
+		background-color: #1b273e;
 		border-radius: 8px;
 		padding: 16px;
 		display: flex;
