@@ -20,7 +20,7 @@ SPDX-License-Identifier: MIT
     </div>
 
     {#if activePage === 'HOME'}
-    	<h1>> @TheBananaPancake<span id="blink">▊</span></h1>
+        <h1>> Banana Pancake<span id="blink">▊</span></h1>
     	<div class="center">
     		<p>CAD engineering & low-level software development</p>
     		<a href="https://tangled.org/thebananapancake.tngl.sh" target="_blank" class="button">
@@ -30,7 +30,7 @@ SPDX-License-Identifier: MIT
     		    Gearbox
     		</a>
     	</div> <br />
-
+        <hr class="dashed" /> <br />
     	<div class="center">
     		<a href="https://tangled.org/thebananapancake.tngl.sh/portfolio" target="_blank" class="hollow-button">
     			See this website's git repository
@@ -77,8 +77,8 @@ SPDX-License-Identifier: MIT
 		font-family:
 			'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
 			sans-serif;
-		margin-left: 30%;
-		margin-right: 30%;
+		margin-left: 25%;
+		margin-right: 25%;
 		font-size: 16px;
 		padding: 40px;
 		border-radius: 12px;
@@ -121,7 +121,7 @@ SPDX-License-Identifier: MIT
         font-size: 16px;
 	}
 	button:disabled {
-	    background-color: #1b273e;
+	    background-color: #111827;
         color: white;
         border-width: 4px;
         border-color: #147878;
@@ -136,6 +136,11 @@ SPDX-License-Identifier: MIT
 		font-family: monospace;
 		font-size: 48px;
 		text-align: center;
+	}
+
+	hr.dashed {
+	    color: #1b273e;
+		border-top: 3px dashed #1b273e;
 	}
 
 	/*
