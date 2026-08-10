@@ -15,14 +15,14 @@ SPDX-License-Identifier: MIT
 <main>
     <div class="center">
     	<button onclick={() => (activePage = 'HOME')} disabled={activePage === 'HOME'}>Home</button>
-    	<button onclick={() => (activePage = 'DEV')} disabled={activePage === 'DEV'}>Software development</button>
-    	<button onclick={() => (activePage = 'CAD')} disabled={activePage === 'CAD'}>CAD projects</button>
+    	<button onclick={() => (activePage = 'SOFTWARE')} disabled={activePage === 'SOFTWARE'}>Software</button>
+    	<button onclick={() => (activePage = 'HARDWARE')} disabled={activePage === 'HARDWARE'}>Hardware</button>
     </div>
 
     {#if activePage === 'HOME'}
         <h1>> Banana Pancake<span id="blink">▊</span></h1>
     	<div class="center">
-    		<p>CAD engineering & low-level software development</p>
+    		<p>CAD engineering & systems development</p>
     		<a href="https://tangled.org/thebananapancake.tngl.sh" target="_blank" class="button">
     			Tangled
     		</a>
@@ -32,20 +32,20 @@ SPDX-License-Identifier: MIT
     	</div> <br />
         <hr class="dashed" /> <br />
     	<div class="center">
-    		<a href="https://tangled.org/thebananapancake.tngl.sh/portfolio" target="_blank" class="hollow-button">
+    		<a href="https://tangled.org/thebananapancake.tngl.sh/portfolio" class="hollow-button">
     			See this website's git repository
     		</a>
     	</div>
-    {:else if activePage === 'DEV'}
+    {:else if activePage === 'SOFTWARE'}
     	<h1>> Software</h1>
     	<h2>Tools</h2>
     	<div class="grid">
-    		<a href="https://ziglang.org" target="_blank">
+    		<a href="https://rust-lang.org" target="_blank">
     			<div class="panel">
-    				<img src="/zig-icon.png" alt="Zig icon" />
+    				<img src="/rustacean-icon.svg" alt="Rust mascot, Ferris the crab" />
     				<div class="panel-text">
-    					<h3>Zig</h3>
-    					<p>A compiled low-level systems programming language.</p>
+    					<h3>Rust</h3>
+    					<p>Memory-safe compiled systems programming language.</p>
     				</div>
     			</div>
     		</a>
@@ -54,25 +54,25 @@ SPDX-License-Identifier: MIT
     				<img src="/git-icon.png" alt="Git icon" />
     				<div class="panel-text">
     					<h3>Git</h3>
-    					<p>A commonly-used version control system.</p>
+    					<p>Version control system.</p>
     				</div>
     			</div>
     		</a>
     	</div>
-    {:else if activePage === 'CAD'}
+    {:else if activePage === 'HARDWARE'}
     	<h1>> Computer Aided Design</h1>
     	<p>
+            For designing CPUs, I use a mixture of <a href="https://wikipedia.org/wiki/Verilog" target="_blank">Verilog</a>
+            and <a href="https://hardcaml.org" target="_blank">HardCaml</a>.
     		I use <a href="https://www.freecad.org/" target="_blank">FreeCAD</a> for part design and
-    		<a href="https://www.kicad.org/" target="_blank">KiCAD</a> for PCB/electrical work. For
-            designing CPUs, I use a mixture of <a href="https://wikipedia.org/wiki/Verilog" target="_blank">Verilog</a>
-            and <a href="https://hardcaml.org" target="_blank">HardCaml</a>, depending on the project.
+    		<a href="https://www.kicad.org/" target="_blank">KiCAD</a> for PCB/electrical work. See some of my projects below...
     	</p>
     {/if}
 </main>
 
 <style>
 	main {
-		background-color: #111827;
+		background-color: #1e1e2e;
 		color: white;
 		font-family:
 			'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
@@ -85,38 +85,38 @@ SPDX-License-Identifier: MIT
 	}
 
 	:global(body) {
-	    background-color: #1b273e;
+	    background-color: #11111b;
 	}
 
 	a {
-	    color: #349df9;
+	    color: #1592ff;
 		text-decoration: none;
 	}
 	a.button {
-    	background-color: #22c55e;
+    	background-color: #31aae4;
     	border-width: 0px;
     	border-radius: 4px;
     	cursor: pointer;
     	padding: 8px;
-    	box-shadow: 0 4px 0 #147878;
+    	box-shadow: 0 4px 0 #4641d9;
     	color: black;
 	}
 	a.hollow-button {
 	    color: white;
 		border-width: 4px;
-		border-color: #1b273e;
+		border-color: #323443;
 		padding: 6px;
 		border-style: solid;
 		border-radius: 8px;
 	}
 
 	button {
-	    background-color: #22c55e;
+	    background-color: #31aae4;
     	border-width: 0px;
     	border-radius: 4px;
     	cursor: pointer;
     	padding: 8px;
-    	box-shadow: 0 4px 0 #147878;
+    	box-shadow: 0 4px 0 #4641d9;
     	color: black;
         font-size: 16px;
 	}
@@ -124,7 +124,7 @@ SPDX-License-Identifier: MIT
 	    background-color: #111827;
         color: white;
         border-width: 4px;
-        border-color: #147878;
+        border-color: #4641d9;
         padding: 6px;
         border-style: solid;
         border-radius: 8px;
@@ -139,8 +139,8 @@ SPDX-License-Identifier: MIT
 	}
 
 	hr.dashed {
-	    color: #1b273e;
-		border-top: 3px dashed #1b273e;
+	    color: #323443;
+		border-top: 3px dashed #323443;
 	}
 
 	/*
@@ -187,7 +187,7 @@ SPDX-License-Identifier: MIT
 		gap: 16px;
 	}
 	.panel {
-		background-color: #1b273e;
+		background-color: #11111b;
 		border-radius: 8px;
 		padding: 16px;
 		display: flex;

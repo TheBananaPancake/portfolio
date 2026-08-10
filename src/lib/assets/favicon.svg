@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--
-Created with Inkscape (http://www.inkscape.org/)
-SPDX-FileCopyrightText: 2026 TheBananaPancake <did:plc:3ywraszv5eqhnlvzumwju5fa>
-SPDX-License-Identifier: CC-BY-SA-4.0
--->
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="88.97142mm"
-   height="99.472954mm"
-   viewBox="0 0 88.97142 99.472954"
+   width="88.971428mm"
+   height="99.472946mm"
+   viewBox="0 0 88.971428 99.472946"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
@@ -17,10 +13,10 @@ SPDX-License-Identifier: CC-BY-SA-4.0
      id="defs1" />
   <g
      id="layer1"
-     transform="translate(-43.057181,-72.731448)">
+     transform="translate(-43.057182,-72.731449)">
     <path
        id="path1"
-       style="fill:#22c55e;fill-opacity:1;stroke:#171e26;stroke-width:5.20274;stroke-linejoin:round"
+       style="fill:#31aae4;fill-opacity:1;stroke:#11111b;stroke-width:5.20274;stroke-linejoin:round;stroke-opacity:1"
        d="m 98.454972,75.332869 c -17.105681,-2.05e-4 -30.972707,13.86659 -30.972786,30.972271 1.88e-4,5.28465 2.410889,11.53969 4.986775,16.15405 l -26.565303,31.59342 -0.24511,15.47302 16.677698,0.0774 28.210682,-33.35248 c 2.580756,0.6816 5.238796,1.02673 7.908044,1.02681 17.105478,-8e-5 30.972188,-13.86679 30.972268,-30.97227 -1e-5,-5.58751 -3.33926,-11.731567 -3.33933,-9.598898 4e-5,10.773048 -8.73325,19.506338 -19.5063,19.506298 -10.772849,-2.4e-4 -19.505829,-8.73345 -19.505788,-19.506298 -4.4e-5,-10.772851 8.732937,-19.506062 19.505788,-19.506303 1.05106,-9.8e-5 -4.27258,-1.867139 -8.126638,-1.86707 z" />
   </g>
 </svg>
