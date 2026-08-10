@@ -179,7 +179,7 @@ SPDX-License-Identifier: MIT
 	#blink {
 		animation: blink 1s infinite;
 		animation-timing-function: steps(1);
-		color: #22c55e;
+		color: #4641d9;
 	}
 	.grid {
 		display: grid;

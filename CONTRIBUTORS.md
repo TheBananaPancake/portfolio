@@ -10,13 +10,10 @@ repository and install dependencies with:
 ```sh
 npm install
 ```
-make your changes and test them by hosting the website on `localhost:5173`
-by running:
-```sh
-npm run dev
-```
+make your changes, test them by hosting the website on `localhost:5173`
 and compile the Svelte code:
 ```sh
+npm run dev
 npm run build
 ```
 
@@ -31,9 +28,6 @@ commit message with your name and email address, which you configure with
 Git. To do this, use
 ```sh
 git config user.name "Your new name!"
-```
-and
-```sh
 git config user.email "youremail@example.com"
 ```
 > [!TIP]
