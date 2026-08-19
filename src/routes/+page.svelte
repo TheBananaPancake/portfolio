@@ -77,7 +77,7 @@ SPDX-License-Identifier: MIT
                 <div class="panel">
                     <img src="/raspberry-pi-icon.svg" alt="Raspberry Pi logo" />
                     <h3>Raspberry Pi Pico 2</h3>
-                    <p>A development board using the RP2350.</p>
+                    <p>RP2350</p>
                 </div>
             </a>
         </div>
