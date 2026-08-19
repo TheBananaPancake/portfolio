@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-hidden="true"
+   role="img"
+   style="color:#ffffff;opacity:1"
+   width="64.001953"
+   height="64.0625"
+   viewBox="0 0 256.00781 256.25"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="micropython-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="256.00781"
+       height="256.25"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <path
+     id="rect1"
+     style="fill:#ffffff;fill-opacity:1;stroke:#11111b;stroke-width:0;stroke-linejoin:round"
+     d="M 0,0 V 255.9375 H 56.367188 L 56.132812,56.546875 66.617188,56.125 66.453125,256.14062 189.57031,256.25 l -0.3125,-200.296875 10.58594,0.03906 0.10937,199.781255 55.98438,0.45312 0.0703,-256.0312505 -122.80469,-0.0625 0.35938,199.6093805 -10.60938,0.17187 L 122.48438,0 Z M 222.28906,208.14844 H 237.25 v 25.39062 h -14.96094 z" />
+</svg>

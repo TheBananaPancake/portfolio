@@ -10,11 +10,10 @@ repository and install dependencies with:
 ```sh
 npm install
 ```
-make your changes, test them by hosting the website on `localhost:5173`
-and compile the Svelte code:
+make your changes, compile the Svelte code and run it locally on `http://localhost:4173/`:
 ```sh
-npm run dev
 npm run build
+npm run preview
 ```
 
 If you find an error, please either make an issue or a pull request. Please

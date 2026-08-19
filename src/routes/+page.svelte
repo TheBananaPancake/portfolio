@@ -15,20 +15,15 @@ SPDX-License-Identifier: MIT
 <main>
     <div class="center">
     	<button onclick={() => (activePage = 'HOME')} disabled={activePage === 'HOME'}>Home</button>
-    	<button onclick={() => (activePage = 'SOFTWARE')} disabled={activePage === 'SOFTWARE'}>Software</button>
-    	<button onclick={() => (activePage = 'HARDWARE')} disabled={activePage === 'HARDWARE'}>Hardware</button>
+    	<button onclick={() => (activePage = 'PROJECTS')} disabled={activePage === 'PROJECTS'}>Projects</button>
+    	<button onclick={() => (activePage = 'TOOLS')} disabled={activePage === 'TOOLS'}>Tools</button>
     </div>
 
     {#if activePage === 'HOME'}
         <h1>> Banana Pancake<span id="blink">▊</span></h1>
     	<div class="center">
-    		<p>CAD engineering & systems development</p>
-    		<a href="https://tangled.org/thebananapancake.tngl.sh" target="_blank" class="button">
-    			Tangled
-    		</a>
-    		<a href="https://thebananapancake.tngl.sh/gearbox/@thebananapancake" target="_blank" class="button">
-    		    Gearbox
-    		</a>
+    		<p>Embedded/firmware developer and schematic designer</p>
+    		<a href="https://tangled.org/thebananapancake.tngl.sh" target="_blank" class="button">Tangled</a>
     	</div> <br />
         <hr class="dashed" /> <br />
     	<div class="center">
@@ -36,37 +31,56 @@ SPDX-License-Identifier: MIT
     			See this website's git repository
     		</a>
     	</div>
-    {:else if activePage === 'SOFTWARE'}
-    	<h1>> Software</h1>
-    	<h2>Tools</h2>
+    {:else if activePage === 'PROJECTS'}
+    	<h1>Projects</h1>
+    {:else if activePage === 'TOOLS'}
+    	<h1>Tools</h1>
+        <h2>Languages</h2>
     	<div class="grid">
+       		<a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
+       			<div class="panel">
+       				<img src="/c-icon.svg" alt="C icon" />
+       				<div class="panel-text">
+       					<h3>C</h3>
+       					<p>
+                            An ultra-fast low-level compiled programming language.
+                        </p>
+       				</div>
+       			</div>
+       		</a>
+       		<a href="https://micropython.org/" target="_blank">
+       			<div class="panel">
+       				<img src="/micropython-icon-white.svg" alt="MicroPython logo" />
+       				<div class="panel-text">
+       					<h3>MicroPython</h3>
+       					<p>
+                               An implementation of Python optimised to run on microcontrollers.
+                           </p>
+       				</div>
+       			</div>
+       		</a>
     		<a href="https://rust-lang.org" target="_blank">
     			<div class="panel">
     				<img src="/rustacean-icon.svg" alt="Rust mascot, Ferris the crab" />
     				<div class="panel-text">
     					<h3>Rust</h3>
-    					<p>Memory-safe compiled systems programming language.</p>
-    				</div>
-    			</div>
-    		</a>
-    		<a href="https://git-scm.com" target="_blank">
-    			<div class="panel">
-    				<img src="/git-icon.png" alt="Git icon" />
-    				<div class="panel-text">
-    					<h3>Git</h3>
-    					<p>Version control system.</p>
+    					<p>
+                            A modern memory-safe programming language.
+                        </p>
     				</div>
     			</div>
     		</a>
     	</div>
-    {:else if activePage === 'HARDWARE'}
-    	<h1>> Computer Aided Design</h1>
-    	<p>
-            For designing CPUs, I use a mixture of <a href="https://wikipedia.org/wiki/Verilog" target="_blank">Verilog</a>
-            and <a href="https://hardcaml.org" target="_blank">HardCaml</a>.
-    		I use <a href="https://www.freecad.org/" target="_blank">FreeCAD</a> for part design and
-    		<a href="https://www.kicad.org/" target="_blank">KiCAD</a> for PCB/electrical work. See some of my projects below...
-    	</p>
+        <h2>Platforms</h2>
+        <div class="grid">
+            <a href="https://www.raspberrypi.com/products/raspberry-pi-pico-2/" target="_blank">
+                <div class="panel">
+                    <img src="/raspberry-pi-icon.svg" alt="Raspberry Pi logo" />
+                    <h3>Raspberry Pi Pico 2</h3>
+                    <p>A development board using the RP2350.</p>
+                </div>
+            </a>
+        </div>
     {/if}
 </main>
 
